@@ -39,7 +39,7 @@ const PageFooter = () => {
             
             {/* Gmail Icon */}
             <a 
-              href="mailto:contact@pinandpaper.com" 
+              href="mailto:info.pinandpaper.team@gmail.com" 
               className="text-slate-200 hover:text-white transition-colors"
               aria-label="Gmail"
             >
