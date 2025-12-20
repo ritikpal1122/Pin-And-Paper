@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-b from-[#dfe9ff] via-[#dde8ff] to-[#f6f3ff] text-slate-900 font-sans;
+}
+
+
