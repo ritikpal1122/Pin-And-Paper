@@ -1,10 +1,14 @@
 import React from "react";
 import Svg1 from "../assets/svg-1.jsx";
 import Logo3d from "../assets/3d_logo.svg";
+import Image1 from "../assets/image1.jpeg";
+import Image2 from "../assets/image2.jpeg";
+import Image3 from "../assets/image3.jpeg";
+import Image4 from "../assets/image4.jpeg";
 
 const ModulesSection = () => {
   return (
-    <section className="relative overflow-hidden">
+    <section id="modules" className="relative overflow-hidden scroll-mt-20">
       {/* Full Screen SVG Background */}
       <div className="fixed inset-0 -z-10 w-screen h-screen">
         <Svg1 className="w-full h-full" style={{ width: "100vw", height: "100vh", objectFit: "cover" }} />
@@ -49,24 +53,28 @@ const ModulesSection = () => {
               accentFrom="#f97316"
               accentTo="#fed7aa"
               isFirst={true}
+              image={Image1}
             />
             <ModuleCard
               title="ARM & Microprocessor"
               subtitle="Module Details"
               accentFrom="#0f172a"
               accentTo="#6366f1"
+              image={Image2}
             />
             <ModuleCard
               title="Embedded Linux"
               subtitle="Module Details"
               accentFrom="#0f172a"
               accentTo="#22c55e"
+              image={Image3}
             />
             <ModuleCard
               title="Networking Protocols"
               subtitle="Module Details"
               accentFrom="#0f172a"
               accentTo="#22c55e"
+              image={Image4}
             />
             </div>
           </div>
@@ -76,21 +84,37 @@ const ModulesSection = () => {
   );
 };
 
-const ModuleCard = ({ title, subtitle, accentFrom, accentTo, isFirst = false }) => (
+const ModuleCard = ({ title, subtitle, accentFrom, accentTo, isFirst = false, image }) => (
   <div 
-    className="rounded-2xl bg-white overflow-hidden shadow-sm flex flex-col w-full max-w-[243px] mx-auto"
+    className="rounded-2xl bg-white overflow-hidden shadow-sm flex flex-col w-full max-w-[243px] mx-auto group"
     style={{ height: "308px", border: "1px solid #050E3C" }}
   >
     <div
-      className="w-full"
+      className="w-full relative overflow-hidden"
       style={{
         height: "calc(308px - 114px)",
         backgroundColor: "#F4F4F4",
       }}
     >
-      <div className={`p-4 h-full flex flex-col justify-between ${isFirst ? 'text-left' : ''}`}>
-       
-      </div>
+      {image && (
+        <img 
+          src={image} 
+          alt={title}
+          className="w-full h-full object-cover group-hover:object-contain transition-all duration-700 ease-out"
+          style={{
+            transform: "scale(1)",
+            transformOrigin: "center center",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transition = "transform 700ms cubic-bezier(0.4, 0, 0.2, 1), object-fit 700ms ease-out";
+            e.currentTarget.style.transform = "scale(0.88)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transition = "transform 700ms cubic-bezier(0.4, 0, 0.2, 1), object-fit 700ms ease-out";
+            e.currentTarget.style.transform = "scale(1)";
+          }}
+        />
+      )}
     </div>
     <div 
       className="w-full flex flex-col p-4"

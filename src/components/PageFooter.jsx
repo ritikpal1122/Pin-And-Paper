@@ -26,7 +26,7 @@ const PageFooter = () => {
             
             {/* LinkedIn Icon */}
             <a 
-              href="https://linkedin.com/company/pinandpaper" 
+              href="https://www.linkedin.com/company/pinandpaper/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-slate-200 hover:text-white transition-colors"

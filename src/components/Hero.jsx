@@ -3,7 +3,7 @@ import Svg1 from "../assets/svg-1.jsx";
 
 const Hero = () => {
   return (
-    <main className="mt-10 lg:mt-16 relative overflow-hidden">
+    <main id="home" className="mt-10 lg:mt-16 relative overflow-hidden scroll-mt-20">
       {/* Full Screen SVG Background */}
       <div className="fixed inset-0 -z-10 w-screen h-screen">
         <Svg1 className="w-full h-full" style={{ width: "100vw", height: "100vh", objectFit: "cover" }} />
@@ -25,11 +25,14 @@ const Hero = () => {
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
           <div className="relative">
-            <button 
-              className="px-6 py-3 rounded-full text-xs md:text-sm font-semibold bg-[#8BF18E] text-papNavy border border-emerald-300 relative z-10"
+            <a 
+              href="https://www.linkedin.com/in/rakesh-embedded/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-full text-xs md:text-sm font-semibold bg-[#8BF18E] text-papNavy border border-emerald-300 relative z-10 hover:bg-[#7AE17D] transition-colors inline-block"
             >
               Join us with our 30,000+ learners
-            </button>
+            </a>
             <div 
               className="absolute top-full left-0 right-0 mt-2 rounded-full"
               style={{
