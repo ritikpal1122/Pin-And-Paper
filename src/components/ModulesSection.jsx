@@ -16,7 +16,7 @@ const ModulesSection = () => {
       
       <div className="relative z-10" style={{ paddingBottom: "50px" }}>
         {/* Upper Text - Full Width */}
-        <p className="text-slate-600  mt-6 text-center italic font-light px-4" style={{ fontSize: "16px" }}>
+        <p className="text-slate-600  mt-6 mb-4 lg:mb-0 text-left lg:text-center italic font-light px-4" style={{ fontSize: "16px" }}>
           Transforming 2,000+ handwritten embedded notes into the open-source learning platform
           <br />
           for future engineers practical, visual, and built for real careers.
@@ -24,7 +24,7 @@ const ModulesSection = () => {
         
         {/* Text and Logo Section */}
         <div className="grid lg:grid-cols-[1fr_auto] gap-4 lg:gap-10 items-center px-4 lg:px-0">
-          <div className="text-left flex flex-col w-full lg:w-auto px-5 lg:pl-20 lg:pr-8" style={{ maxWidth: "784px", borderTop: "1px solid #050E3C", borderRight: "1px solid #050E3C", borderBottom: "1px solid #050E3C", borderLeft: "0", borderRadius: "0 16px 16px 0", alignItems: "flex-start" }}>
+          <div className="text-left flex flex-col w-full lg:w-auto px-0 lg:pl-20 lg:pr-8 lg:border-t lg:border-r lg:border-b lg:border-l-0 lg:rounded-r-2xl" style={{ maxWidth: "784px", alignItems: "flex-start", borderColor: "#050E3C" }}>
             <h2 className="font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-4xl" style={{ textAlign: "left", lineHeight: "1.2", color: "#050E3C" }}>
               Learn essential embedded system skills for real engineering careers
             </h2>
@@ -44,7 +44,7 @@ const ModulesSection = () => {
         </div>
 
         {/* Module Cards */}
-        <div className="mx-auto px-4 lg:px-0" style={{ maxWidth: "1185px" }}>
+        <div className="mx-auto px-0 md:px-4 lg:px-0" style={{ maxWidth: "1185px" }}>
           <div className="">
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center">
             <ModuleCard

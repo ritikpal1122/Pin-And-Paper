@@ -14,8 +14,8 @@ const CommunitySection = () => {
       
       <div className="relative z-10" style={{ paddingBottom: "50px" }}>
         <div className="flex justify-center lg:justify-end px-4 lg:px-0">
-          <div className="w-full max-w-[1415px] lg:ml-8" style={{ borderTop: "1px solid #050E3C", borderRight: "0px", borderBottom: "1px solid #050E3C", borderLeft: "1px solid #050E3C", borderRadius: "16px 16px 16px 16px", padding: "20px 30px", textAlign: "left" }}>
-            <p className="font-extrabold text-papNavy text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-center lg:text-left" >
+          <div className="w-full max-w-[1415px] lg:ml-8 lg:border-t lg:border-b lg:border-l lg:border-r-0 lg:rounded-l-2xl" style={{ padding: "20px 30px", textAlign: "left", borderColor: "#050E3C" }}>
+            <p className="font-extrabold text-papNavy text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-left lg:text-center" >
               Join us with our Embedded learning
               <br />
               Community

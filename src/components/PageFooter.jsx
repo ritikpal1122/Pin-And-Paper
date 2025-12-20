@@ -5,7 +5,7 @@ const PageFooter = () => {
   return (
     <footer className="mt-auto bg-papNavy text-slate-100 pt-8 pb-6 w-full">
       <div className="w-full px-4 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
+        <div className="flex flex-row items-center justify-between gap-4 mb-6">
           <div className="flex items-center">
             <img src={Group38} alt="PinAndPaper Logo" className="h-12 w-auto" />
           </div>
