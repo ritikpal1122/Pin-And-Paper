@@ -6,13 +6,13 @@ const StorySection = () => {
     <section className="w-full">
       <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[100px]" style={{ paddingBottom: "50px" }}>
         <div className="grid lg:grid-cols-[auto_auto] gap-6 lg:gap-10 items-start relative">
-      <div className="w-full max-w-[800px]">
+      <div className="w-full" style={{ maxWidth: "800px" }}>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold text-papNavy">
           Democratizing Embedded Education,
           <br />
           One Handwritten Note at a Time
         </h2>
-        <p className="mt-4 font-light text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed">
+        <p className="mt-4 font-light text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed break-words overflow-wrap-anywhere">
           PinAndPaper exists to make embedded systems learning clear,
           accessible, and career‑relevant. We transform deeply researched
           handwritten engineering notes into structured, visual, and practical

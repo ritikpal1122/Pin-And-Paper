@@ -19,11 +19,11 @@ const ModulesSection = () => {
         <p className="text-slate-600  mt-6 text-center italic font-light px-4" style={{ fontSize: "16px" }}>
           Transforming 2,000+ handwritten embedded notes into the open-source learning platform
           <br />
-          for future engineers—practical, visual, and built for real careers.
+          for future engineers practical, visual, and built for real careers.
         </p>
         
         {/* Text and Logo Section */}
-        <div className="grid lg:grid-cols-[1fr_auto] gap-4 lg:gap-10 items-center mb-12 px-4 lg:px-0">
+        <div className="grid lg:grid-cols-[1fr_auto] gap-4 lg:gap-10 items-center px-4 lg:px-0">
           <div className="text-left flex flex-col w-full lg:w-auto px-5 lg:pl-20 lg:pr-8" style={{ maxWidth: "784px", borderTop: "1px solid #050E3C", borderRight: "1px solid #050E3C", borderBottom: "1px solid #050E3C", borderLeft: "0", borderRadius: "0 16px 16px 0", alignItems: "flex-start" }}>
             <h2 className="font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-4xl" style={{ textAlign: "left", lineHeight: "1.2", color: "#050E3C" }}>
               Learn essential embedded system skills for real engineering careers

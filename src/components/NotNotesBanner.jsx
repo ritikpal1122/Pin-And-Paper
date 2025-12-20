@@ -11,7 +11,7 @@ const NotNotesBanner = () => {
       <div className="fixed inset-0 -z-10 w-screen h-screen">
         <Svg3 className="w-full h-full" style={{ width: "100vw", height: "100vh", objectFit: "cover" }} />
       </div>
-    <div className="relative z-10 px-4 lg:px-0" style={{ paddingBottom: "50px" }}>
+    <div className="relative z-10 px-4 lg:px-0" >
       <div className="mx-auto relative mb-10 w-full max-w-[1185px]">
         {/* Second border - shifted bottom and left */}
         <div 
@@ -57,9 +57,14 @@ const NotNotesBanner = () => {
             <button className="px-5 py-2 rounded-full bg-[#ff7a5c] text-white font-semibold shadow-soft">
               Coming Soon
             </button>
-            <button className="px-5 py-2 rounded-full bg-transparent border border-white/30 text-slate-100 font-semibold">
+            <a 
+              href="https://www.linkedin.com/company/pinandpaper/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-2 rounded-full bg-transparent border border-white/30 text-slate-100 font-semibold hover:bg-white/10 transition-colors"
+            >
               Wishlist now
-            </button>
+            </a>
           </div>
         </div>
 
