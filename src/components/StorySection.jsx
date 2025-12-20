@@ -12,7 +12,7 @@ const StorySection = () => {
           <br />
           One Handwritten Note at a Time
         </h2>
-        <p className="mt-4 font-light text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed break-words overflow-wrap-anywhere w-full lg:w-[500px] text-center lg:text-left mx-auto">
+        <p className="mt-4 font-light text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed break-words overflow-wrap-anywhere w-full lg:w-[500px] text-left lg:text-center ">
           PinAndPaper exists to make embedded systems learning clear,
           accessible, and career‑relevant. We transform deeply researched
           handwritten engineering notes into structured, visual, and practical
