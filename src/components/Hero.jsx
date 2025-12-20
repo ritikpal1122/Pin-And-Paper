@@ -3,7 +3,7 @@ import Svg1 from "../assets/svg-1.jsx";
 
 const Hero = () => {
   return (
-    <main id="home" className="mt-10 lg:mt-16 relative overflow-hidden scroll-mt-20">
+    <main id="home" className="pt-24 lg:pt-28 relative overflow-hidden scroll-mt-20">
       {/* Full Screen SVG Background */}
       <div className="fixed inset-0 -z-10 w-screen h-screen">
         <Svg1 className="w-full h-full" style={{ width: "100vw", height: "100vh", objectFit: "cover" }} />

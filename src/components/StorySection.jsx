@@ -3,7 +3,7 @@ import Book from "../assets/book.svg";
 
 const StorySection = () => {
   return (
-    <section className="w-full">
+    <section className="w-full mt-[100px]">
       <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[100px]" style={{ paddingBottom: "50px" }}>
         <div className="grid lg:grid-cols-[auto_auto] gap-6 lg:gap-10 items-start relative">
       <div className="w-full" style={{ maxWidth: "800px" }}>
