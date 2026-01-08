@@ -52,12 +52,12 @@ const Navbar = () => {
           >
             Services
           </button>
-          <button 
+          {/* <button 
             onClick={() => scrollToSection("pricing")}
             className="text-slate-700 hover:text-papNavy"
           >
             Pricing
-          </button>
+          </button> */}
           <button className="text-slate-700 hover:text-papNavy">Sign In</button>
         </nav>
 

@@ -6,7 +6,7 @@ import NotNotesBanner from "./components/NotNotesBanner.jsx";
 import CommunitySection from "./components/CommunitySection.jsx";
 import StorySection from "./components/StorySection.jsx";
 import ServicesSection from "./components/ServicesSection.jsx";
-import PricingSection from "./components/PricingSection.jsx";
+// import PricingSection from "./components/PricingSection.jsx";
 import PageFooter from "./components/PageFooter.jsx";
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
       <CommunitySection />
       <StorySection />
       <ServicesSection />
-      <PricingSection />
+      {/* <PricingSection /> */}
 
       <PageFooter />
     </div>
