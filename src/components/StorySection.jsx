@@ -26,7 +26,7 @@ const StorySection = () => {
         </p>
       </div>
 
-      <div className="absolute lg:right-0 lg:top-[50%] lg:translate-y-[-45%] mt-0 lg:mt-0">
+      <div className="absolute top-[150px] left-[24px] sm:relative sm:top-auto sm:left-auto md:relative md:top-auto md:left-auto lg:absolute lg:right-0 lg:top-[50%] lg:left-auto lg:translate-y-[-45%] mt-0 lg:mt-0">
         <img 
           src={Book} 
           alt="Book illustration" 
