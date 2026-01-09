@@ -6,7 +6,7 @@ import CoreService4 from "../assets/core_service4.svg";
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="w-full mt-[100px] scroll-mt-20">
+    <section id="services" className="w-full lg:mt-[100px] mt-[250px] scroll-mt-20">
       <div className="w-full px-4 lg:px-8 " style={{ paddingBottom: "50px" }}>
         <h2 className="font-extrabold text-papNavy text-center lg:text-left lg:ml-24 text-2xl sm:text-3xl md:text-4xl lg:text-[40px]">
           Our Core Services

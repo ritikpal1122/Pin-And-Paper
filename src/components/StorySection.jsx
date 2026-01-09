@@ -3,9 +3,9 @@ import Book from "../assets/book.svg";
 
 const StorySection = () => {
   return (
-    <section className="w-full mt-[100px]">
-      <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[100px]" style={{ paddingBottom: "50px" }}>
-        <div className="grid lg:grid-cols-[auto_auto] gap-6 lg:gap-10 items-start relative">
+    <section className="w-full mt-[20px] lg:mt-[100px]">
+      <div className="w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-[100px] pb-[10px] lg:pb-[50px]">
+        <div className="grid lg:grid-cols-[auto_auto] gap-2 lg:gap-10 items-start relative">
       <div className="w-full" style={{ maxWidth: "800px" }}>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold text-papNavy">
           Democratizing Embedded Education,
@@ -26,7 +26,7 @@ const StorySection = () => {
         </p>
       </div>
 
-      <div className="relative lg:absolute lg:right-0 lg:top-[50%] lg:translate-y-[-45%] mt-6 lg:mt-0">
+      <div className="absolute lg:right-0 lg:top-[50%] lg:translate-y-[-45%] mt-0 lg:mt-0">
         <img 
           src={Book} 
           alt="Book illustration" 

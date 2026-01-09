@@ -70,14 +70,26 @@ const NotNotesBanner = () => {
 
         <div className="flex-1 flex justify-center lg:justify-end w-full">
           <div className="relative w-full h-full flex items-center justify-center" style={{ minHeight: "200px", maxHeight: "400px" }}>
-            {/* Left image - nan3.svg (behind, partially visible) */}
+            {/* Left image - nan3.svg (behind, partially visible) - Desktop */}
             <img 
               src={Nan3} 
               alt="Left illustration" 
-              className="hidden lg:block absolute z-10 w-[120px] sm:w-[150px] md:w-[180px] lg:w-[230px] h-auto"
+              className="hidden lg:block absolute z-10 w-[150px] sm:w-[180px] md:w-[220px] lg:w-[280px] h-auto"
               style={{ 
                 left: "50%",
-                transform: "translateX(-120%) translateY(10px)",
+                transform: "translateX(-120%) translateY(50px)",
+                opacity: 0.9
+              }}
+            />
+            {/* Left image - nan3.svg - Mobile */}
+            <img 
+              src={Nan3} 
+              alt="Left illustration" 
+              className="lg:hidden absolute z-10 h-auto"
+              style={{ 
+                width: "120px",
+                left: "50%",
+                transform: "translateX(-125%) translateY(36px)",
                 opacity: 0.9
               }}
             />
@@ -85,16 +97,28 @@ const NotNotesBanner = () => {
             <img 
               src={Nan1} 
               alt="Main illustration" 
-              className="relative z-30 w-[200px] sm:w-[280px] md:w-[360px] lg:w-[480px] h-auto"
+              className="relative z-30 w-[200px] sm:w-[280px] md:w-[360px] lg:w-[480px] h-auto translate-y-5 lg:translate-y-0"
             />
-            {/* Right image - nan2.svg (behind, partially visible) */}
+            {/* Right image - nan2.svg (behind, partially visible) - Desktop */}
             <img 
               src={Nan2} 
               alt="Right illustration" 
-              className="hidden lg:block absolute z-10 w-[110px] sm:w-[140px] md:w-[170px] lg:w-[220px] h-auto"
+              className="hidden lg:block absolute z-10 w-[140px] sm:w-[170px] md:w-[210px] lg:w-[270px] h-auto"
               style={{ 
                 left: "50%",
-                transform: "translateX(20%) translateY(10px)",
+                transform: "translateX(15%) translateY(50px)",
+                opacity: 0.9
+              }}
+            />
+            {/* Right image - nan2.svg - Mobile */}
+            <img 
+              src={Nan2} 
+              alt="Right illustration" 
+              className="lg:hidden absolute z-10 h-auto"
+              style={{ 
+                width: "120px",
+                left: "50%",
+                transform: "translateX(29%) translateY(35px)",
                 opacity: 0.9
               }}
             />
