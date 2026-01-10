@@ -22,6 +22,7 @@ const PricingSection = () => {
             period="one-time"
             description="The Communication Backbone of Automobiles. A practical, industry-focused guide for embedded engineers."
             features={[
+              "Fully Handwritten",
               "Automotive embedded communication fundamentals",
               "ECU interaction and vehicle networks",
               "Real-world system thinking",
