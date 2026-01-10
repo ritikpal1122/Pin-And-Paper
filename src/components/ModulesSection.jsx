@@ -45,7 +45,7 @@ const ModulesSection = () => {
 
         {/* Module Cards */}
         <div className="mx-auto px-0 md:px-4 lg:px-0" style={{ maxWidth: "1185px" }}>
-          <div className="">
+          <div className="pt-6">
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center">
             <ModuleCard
               title="C & C++ Programming"
@@ -120,7 +120,7 @@ const ModuleCard = ({ title, subtitle, accentFrom, accentTo, isFirst = false, im
       )}
     </div>
     <div 
-      className="w-full flex flex-col p-4"
+      className="w-full flex flex-col p-4 rounded-b-2xl"
       style={{ height: "114px", backgroundColor: "#050E3C", justifyContent: "space-between" }}
     >
       <div>
