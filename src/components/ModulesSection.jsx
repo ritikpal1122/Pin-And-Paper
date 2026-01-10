@@ -127,8 +127,9 @@ const ModuleCard = ({ title, subtitle, accentFrom, accentTo, isFirst = false, im
         <p className="mt-1 text-xs font-semibold text-white/70 text-left w-full">{subtitle}</p>
       </div>
       <button 
-        className="w-full py-2 rounded-full text-xs font-semibold"
-        style={{ backgroundColor: "#93DA97", color: "#050E3C" }}
+        className="w-full py-2 rounded-full text-xs font-semibold cursor-not-allowed"
+        style={{ backgroundColor: "#E2E8F0", color: "#94A3B8", opacity: 0.7 }}
+        disabled
       >
         Show more
       </button>
