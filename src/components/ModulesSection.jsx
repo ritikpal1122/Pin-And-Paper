@@ -86,11 +86,14 @@ const ModulesSection = () => {
 
 const ModuleCard = ({ title, subtitle, accentFrom, accentTo, isFirst = false, image }) => (
   <div 
-    className="rounded-2xl bg-white overflow-hidden shadow-sm flex flex-col w-full max-w-[243px] mx-auto group"
+    className="rounded-2xl bg-white shadow-sm flex flex-col w-full max-w-[243px] mx-auto group relative"
     style={{ height: "308px", border: "1px solid #050E3C" }}
   >
+    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-slate-400 text-white px-4 py-1 rounded-full text-xs font-semibold z-10 whitespace-nowrap">
+      Coming Soon
+    </div>
     <div
-      className="w-full relative overflow-hidden"
+      className="w-full relative overflow-hidden rounded-t-2xl"
       style={{
         height: "calc(308px - 114px)",
         backgroundColor: "#F4F4F4",
