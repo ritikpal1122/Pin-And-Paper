@@ -8,21 +8,15 @@ const StorySection = () => {
         <div className="grid lg:grid-cols-[auto_auto] gap-2 lg:gap-10 items-start relative">
       <div className="w-full" style={{ maxWidth: "800px" }}>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-extrabold text-papNavy">
-          Democratizing Embedded Education,
+          Democratizing Embedded Education.
           <br />
-          One Handwritten Note at a Time
+          One Handwritten Note at a Time.
         </h2>
         <p className="mt-4 font-light text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed break-words overflow-wrap-anywhere w-full lg:w-[500px] text-left ">
-          PinAndPaper exists to make embedded systems learning clear,
-          accessible, and career‑relevant. We transform deeply researched
-          handwritten engineering notes into structured, visual, and practical
-          learning experiences.
-        
-          
-          Built by engineers for engineers, our focus is on strong
-          fundamentals, real‑world applications, and long‑term skill
-          development—so learners don&apos;t just study embedded systems, they
-          truly understand them.
+          PinAndPaper exists to make embedded systems learning clear, structured, and practical.
+          We transform deeply researched handwritten engineering notes into visual, system-first learning paths that reflect how embedded systems are actually built and used.
+          Created by engineers, for engineers, our focus is simple: strong fundamentals, real-world relevance, and long-term skill depth.
+          Learners do not just study embedded systems here. They understand them.
         </p>
       </div>
 

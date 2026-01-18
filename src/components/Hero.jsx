@@ -3,7 +3,7 @@ import Svg1 from "../assets/svg-1.jsx";
 
 const Hero = () => {
   return (
-    <main id="home" className="pt-32 lg:pt-28 relative overflow-hidden scroll-mt-20">
+    <main id="home" className="pt-32 lg:pt-32 relative overflow-hidden scroll-mt-20">
       {/* Full Screen SVG Background */}
       <div className="fixed inset-0 -z-10 w-screen h-screen">
         <Svg1 className="w-full h-full" style={{ width: "100vw", height: "100vh", objectFit: "cover" }} />
@@ -11,40 +11,17 @@ const Hero = () => {
       
       <div className="max-w-6xl mx-auto px-4 lg:px-0 relative z-10" style={{ paddingBottom: "50px" }}>
         <div className="text-center">
-        <p className="text-xs uppercase tracking-[0.35em] text-slate-500 mb-3">
-          OPEN-SOURCE EMBEDDED EDUCATION
+        <p className="text-xs tracking-[0.25em] text-slate-500 mb-3">
+          Open-Source Embedded Systems Mastery
         </p>
         <h1 className="font-black tracking-tight text-papNavy leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[67px]">
-          The Open-Source
-          <br />
-          Path to Embedded Mastery
+          A Structured Path to Real Embedded Engineering
         </h1>
-        <p className="mt-4 text-xs sm:text-sm md:text-base text-slate-600 px-4">
-          Democratizing embedded education through handwritten fundamentals, real‑world projects, and community‑driven learning.
-        </p>
+        <h2 className="mt-4 text-xs sm:text-sm md:text-base text-slate-600 px-4 font-normal">
+          PinAndPaper is an open-source embedded learning platform built from first principles. We turn handwritten fundamentals into clear, system-level understanding using real-world engineering context, not shortcuts.
+        </h2>
 
         <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
-          <div className="relative">
-            <a 
-              href="https://www.linkedin.com/in/rakesh-embedded/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 rounded-full text-xs md:text-sm font-semibold bg-[#8BF18E] text-papNavy border border-emerald-300 relative z-10 hover:bg-[#7AE17D] transition-colors inline-block"
-            >
-              Join us with our 30,000+ learners
-            </a>
-            <div 
-              className="absolute top-full left-0 right-0 mt-2 rounded-full"
-              style={{
-                height: "40px",
-                background: "linear-gradient(to bottom, rgba(139, 241, 142, 0.3), rgba(139, 241, 142, 0.1), transparent)",
-                transform: "scaleY(-1)",
-                transformOrigin: "top",
-                filter: "blur(8px)",
-                zIndex: 0
-              }}
-            />
-          </div>
           <div className="relative">
             <button 
               className="px-6 py-3 rounded-full text-xs md:text-sm font-semibold bg-[#FF7A5C] text-white border border-orange-400 relative z-10"
@@ -63,7 +40,31 @@ const Hero = () => {
               }}
             />
           </div>
+          <div className="relative">
+            <a 
+              href="https://www.linkedin.com/in/rakesh-embedded/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 rounded-full text-xs md:text-sm font-semibold bg-[#8BF18E] text-papNavy border border-emerald-300 relative z-10 hover:bg-[#7AE17D] transition-colors inline-block"
+            >
+              Join 30,000+ Learners
+            </a>
+            <div 
+              className="absolute top-full left-0 right-0 mt-2 rounded-full"
+              style={{
+                height: "40px",
+                background: "linear-gradient(to bottom, rgba(139, 241, 142, 0.3), rgba(139, 241, 142, 0.1), transparent)",
+                transform: "scaleY(-1)",
+                transformOrigin: "top",
+                filter: "blur(8px)",
+                zIndex: 0
+              }}
+            />
+          </div>
         </div>
+        <p className="mt-5 text-xs sm:text-sm text-slate-600 px-4">
+          Built from 2,000+ handwritten embedded systems notes and refined through real project experience. Designed to help learners think, build, and debug like engineers.
+        </p>
         </div>
       </div>
     </main>

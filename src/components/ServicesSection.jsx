@@ -9,31 +9,31 @@ const ServicesSection = () => {
     <section id="services" className="w-full lg:mt-[100px] mt-[250px] scroll-mt-20">
       <div className="w-full px-4 lg:px-8 " style={{ paddingBottom: "50px" }}>
         <h2 className="font-extrabold text-papNavy text-center lg:text-left lg:ml-24 text-2xl sm:text-3xl md:text-4xl lg:text-[40px]">
-          Our Core Services
+          Our Core Strengths
         </h2>
 
         <div className="mt-8 flex flex-wrap justify-center gap-4 sm:gap-6 lg:gap-12">
         <ServiceCard
-          title="Proven Domain Expertise"
-          body="2+ years in embedded systems & IP camera software development."
+          title="Deep Domain Expertise"
+          body="2+ years building production-grade embedded systems and IP camera software, from drivers to application layers."
           icon="🧠"
           image={CoreService1}
         />
         <ServiceCard
-          title="Genuine Teaching Passion"
-          body="Mentored thousands of freshers with empathy, clarity, and practical guidance."
+          title="Teaching Built on Practice"
+          body="Thousands of learners mentored through real engineering problems, with clarity, patience, and hands-on depth."
           icon="👩‍🏫"
           image={CoreService2}
         />
         <ServiceCard
           title="Original Handwritten IP"
-          body="2,000+ pages of handwritten, industry‑tested notes."
+          body="2,000+ pages of original, industry-tested handwritten notes developed over years of real-world work."
           icon="✍️"
           image={CoreService3}
         />
         <ServiceCard
-          title="Proven Market Traction"
-          body="30,000+ active followers and learners including students, professionals, and career switchers."
+          title="Proven Community Traction"
+          body="30,000+ engineers, students, and career switchers actively learning and engaging with the platform."
           icon="📈"
           image={CoreService4}
         />

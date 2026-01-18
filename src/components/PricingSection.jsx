@@ -10,7 +10,7 @@ const PricingSection = () => {
           Choose Your Learning Path
         </h2>
         <p className="text-center text-slate-600 text-sm sm:text-base md:text-lg mb-12 max-w-2xl mx-auto">
-          Select the plan that best fits your embedded systems learning journey
+          Select the path that matches your current level and where you want to reach in embedded systems.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4 lg:gap-6">
@@ -20,19 +20,19 @@ const PricingSection = () => {
             price="$8.86"
             priceInr="₹800"
             period="one-time"
-            description="The Communication Backbone of Automobiles. A practical, industry-focused guide for embedded engineers."
+            description="A focused, handwritten foundation for engineers starting their embedded journey."
             features={[
-              "Fully Handwritten",
+              "Fully handwritten, concept-first notes",
               "Automotive embedded communication fundamentals",
-              "ECU interaction and vehicle networks",
+              "ECU interaction and in-vehicle networks",
               "Real-world system thinking",
-              "Structured, beginner-friendly learning",
+              "Structured, beginner-friendly explanations",
               "Ideal for self-learning and quick reference"
             ]}
             buttonText="👉 Start with Fundamentals"
             buttonLink="https://www.linkedin.com/company/pinandpaper/"
             isPopular={false}
-            bestFor="Students, freshers, and engineers entering automotive embedded systems."
+            bestFor="Students, freshers, and engineers entering automotive or embedded domains."
             hoveredCard={hoveredCard}
             setHoveredCard={setHoveredCard}
           />
@@ -42,20 +42,20 @@ const PricingSection = () => {
             price="$49"
             priceInr="₹4,423"
             period="per month"
-            description="For serious individual learners."
+            description="A complete, structured path from beginner to confident embedded engineer."
             features={[
               "All core embedded modules",
-              "Beginner → Intermediate learning path",
+              "Beginner → Intermediate learning roadmap",
               "Full handwritten notes (PDF + digital)",
-              "Practical examples and use cases",
-              "Community access (priority support)",
+              "Practical examples and real use cases",
+              "Community access with priority support",
               "Monthly live doubt-clearing sessions",
-              "Mini projects and assignments"
+              "Mini-projects and guided assignments"
             ]}
             buttonText="👉 Build Strong Foundations"
             buttonLink="https://www.linkedin.com/company/pinandpaper/"
             isPopular={true}
-            bestFor="Learners building strong embedded fundamentals through self-study."
+            bestFor="Learners building strong embedded fundamentals through disciplined self-study."
             hoveredCard={hoveredCard}
             setHoveredCard={setHoveredCard}
           />
@@ -65,10 +65,10 @@ const PricingSection = () => {
             price="$99"
             priceInr="₹8,217"
             period="per month"
-            description="For career-focused embedded engineers."
+            description="For engineers preparing for industry-level embedded roles."
             features={[
-              "Everything in Pro Learner, plus:",
-              "Advanced modules (Automotive, RTOS, Protocols)",
+              "Everything in Pro Learner",
+              "Advanced modules (RTOS, Automotive, Protocols)",
               "Mentor-guided learning path",
               "Industry-grade case studies",
               "Capstone projects with documentation",
@@ -80,7 +80,7 @@ const PricingSection = () => {
             buttonLink="https://www.linkedin.com/company/pinandpaper/"
             isPopular={false}
             isComingSoon={true}
-            bestFor="Engineers targeting automotive, product, or advanced embedded roles."
+            bestFor="Engineers targeting product companies, automotive roles, and advanced embedded positions."
             hoveredCard={hoveredCard}
             setHoveredCard={setHoveredCard}
           />

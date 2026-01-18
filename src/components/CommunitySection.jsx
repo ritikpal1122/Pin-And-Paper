@@ -15,14 +15,15 @@ const CommunitySection = () => {
       <div className="relative z-10" style={{ paddingBottom: "50px" }}>
         <div className="flex justify-center lg:justify-end px-4 lg:px-0">
           <div className="w-full max-w-[1415px] lg:ml-8 lg:border-t lg:border-b lg:border-l lg:border-r-0 lg:rounded-l-2xl" style={{ padding: "20px 30px", textAlign: "left", borderColor: "#050E3C" }}>
-            <p className="font-extrabold text-papNavy text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-left lg:text-center" >
-              Join us with our Embedded learning
-              <br />
-              Community
+            <p className="font-extrabold text-papNavy text-2xl sm:text-3xl md:text-4xl lg:text-[40px] text-left lg:text-center">
+              Join the Embedded Learning Community
             </p>
             <p className="mt-3 text-sm sm:text-base md:text-lg lg:text-[21px] font-light text-[#050E3C]">
-              PinAndPaper helps you build strong fundamentals through handwritten
-              learning, real‑world examples, and industry‑aligned practice.
+              PinAndPaper is shaped by continuous interaction with learners and working engineers.
+              The content evolves through real questions, real confusion, and real project challenges.
+            </p>
+            <p className="mt-3 text-xs sm:text-sm text-slate-600">
+              What you see here is feedback-driven learning, not one-way teaching.
             </p>
           </div>
         </div>
